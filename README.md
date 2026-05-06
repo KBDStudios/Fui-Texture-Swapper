@@ -9,11 +9,7 @@ Standard FUI editors often aggressively decompress and recompress archives, whic
 ## 💻 **System Requirements & Architecture:**
 
 **Pre-compiled Release (.exe):**
-The standalone release build is compiled specifically for **Client Windows** environments (x64/x86 architecture). It is fully compatible with standard Intel and AMD processors running:
-* Windows 7
-* Windows 10
-* Windows 11
-*(Note: If you are using a newer ARM-based Windows device, Windows will automatically handle running the executable via its built-in emulation.)*
+The standalone release build is compiled specifically for **Client Windows** environments (x64/x86 architecture).
 
 **Source Code (Python):**
 If you want to use this on **macOS**, **Linux**, or other operating systems, you can simply download the source code and run the Python scripts natively using your own Python environment.
