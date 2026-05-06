@@ -22,7 +22,7 @@ For users who just want to run the program without installing Python:
 3. Double-click to run! 
 
 🛡️ **Note on Windows "Unknown Publisher" Warning:**
-Because this is an independently developed freeware tool, the executable is not signed with a pricey commercial Microsoft certificate. When you first run the program, Windows SmartScreen might show a blue "Windows protected your PC" popup. Don't worry! To bypass this, simply click **More info**, and then click **Run anyway**.
+Because this is an independently developed freeware tool, the executable is not signed with a commercial Microsoft certificate. When you first run the program, Windows SmartScreen might show a blue "Windows protected your PC" popup. Don't worry! To bypass this, simply click **More info**, and then click **Run anyway**.
 
 ### Option 2: Running from Source
 For developers or users running the raw Python script:
