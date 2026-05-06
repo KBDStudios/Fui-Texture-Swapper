@@ -1,4 +1,3 @@
-
 <img width="1216" height="657" alt="Demonstration Fui-Texture-Swapper" src="https://github.com/user-attachments/assets/8d4a148a-cc5b-4ddd-a566-475eab3a5d92" />
 
 # Raw FUI Image Swapper (Modern Edition)
