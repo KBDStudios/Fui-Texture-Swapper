@@ -19,13 +19,16 @@ Standard FUI editors often aggressively decompress and recompress archives, whic
 For users who just want to run the program without installing Python:
 1. Navigate to the **Releases** tab on the right side of this page.
 2. Download the latest `FUI_Swapper.exe`.
-4. Double-click to run! 
+3. Double-click to run! 
+
+🛡️ **Note on Windows "Unknown Publisher" Warning:**
+Because this is an independently developed freeware tool, the executable is not signed with a pricey commercial Microsoft certificate. When you first run the program, Windows SmartScreen might show a blue "Windows protected your PC" popup. Don't worry! To bypass this, simply click **More info**, and then click **Run anyway**.
 
 ### Option 2: Running from Source
 For developers or users running the raw Python script:
 1. Ensure you have Python 3.x installed.
 2. Clone or download this repository.
-3. (Optional but recommended) Install Pillow for image previews by opening your command prompt and typing: pip install pillow
+3. (Optional but recommended) Install Pillow for image previews by opening your command prompt and typing: `pip install pillow`
 4. Run `FUI_Swapper.pyw`.
 
 ## ⚠️ Important Warning on Texture Modification
