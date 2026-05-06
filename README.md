@@ -6,6 +6,18 @@ A specialized GUI utility developed by **KBDStudios** for safely extracting, vie
 
 Standard FUI editors often aggressively decompress and recompress archives, which can ruin the original visual quality. This tool utilizes a strict binary block offset method, mathematically padding custom images with null bytes (`\x00`) to guarantee zero internal game pointer shifts—preventing the engine crashes commonly associated with texture modding.
 
+## 💻 **System Requirements & Architecture:**
+
+**Pre-compiled Release (.exe):**
+The standalone release build is compiled specifically for **Client Windows** environments (x64/x86 architecture). It is fully compatible with standard Intel and AMD processors running:
+* Windows 7
+* Windows 10
+* Windows 11
+*(Note: If you are using a newer ARM-based Windows device, Windows will automatically handle running the executable via its built-in emulation.)*
+
+**Source Code (Python):**
+If you want to use this on **macOS**, **Linux**, or other operating systems, you can simply download the source code and run the Python scripts natively using your own Python environment.
+
 ## ✨ Features
 
 * **Safe Binary Swapping:** Replaces UI textures without altering the overall file size, maintaining the hardcoded memory pointers of the game engine.
@@ -35,6 +47,17 @@ For developers or users running the raw Python script:
 
 ## ⚠️ Important Warning on Texture Modification
 If you replace an original image with a custom texture that has a **larger** file size, the strict block offsets will break. The tool will warn you before allowing this. It is highly recommended to optimize your custom replacement images so their file sizes are smaller than the original, allowing the Swapper to safely pad the remaining difference.
+
+## ⚠️ **File Exports & Windows Security:**
+Windows "Tamper Protection" (often tied to **Real-time protection** in Client Windows 7/10/11) or third-party antivirus software may sometimes block the tool from exporting files.
+
+If your exports are failing, simply add the tool's folder to your antivirus exclusions:
+1. Open **Windows Security** > **Virus & threat protection**.
+2. Under *Virus & threat protection settings*, click **Manage settings**.
+3. Scroll down to *Exclusions* and click **Add or remove exclusions**.
+4. Click **Add an exclusion** > **Folder**, and select the folder where this tool is located.
+
+*(Note: While you can temporarily disable Tamper/Real-time protection to force an export, adding a folder exclusion is safer and only needs to be done once.)*
 
 ## 📄 License
 This software is provided under a custom Proprietary Freeware License. It is strictly for personal, non-commercial use. Modification or creation of derivative works is prohibited. Please see the LICENSE file for complete details.
